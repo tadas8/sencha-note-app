@@ -2,7 +2,12 @@ Ext.define('Memo.view.List', {
     extend: 'Ext.dataview.List',
     xtype: 'memolist',
     config: {
-        store: 'Memos',                // 1
+    	//data: [
+        //    { title: 'ham' },
+        //    { title: 'egg' },
+        //    { title: 'spam' }
+        //],
+        store: 'Memos',
         itemTpl: '{title}'
     }
 });
