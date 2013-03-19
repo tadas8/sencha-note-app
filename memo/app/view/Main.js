@@ -2,6 +2,8 @@ Ext.define('Memo.view.Main', {
     extend: 'Ext.navigation.View',
     xtype: 'main',
     requires: [
+    'Ext.data.Store',
+    'Ext.dataview.List',
     ],
     config: {
     	useTitleForBackButtonText: true,     // 1

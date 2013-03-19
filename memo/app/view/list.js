@@ -8,6 +8,6 @@ Ext.define('Memo.view.List', {
         //    { title: 'spam' }
         //],
         store: 'Memos',
-        itemTpl: '{title}'
+        itemTpl: '<p>id:{id}</p>'+'<p>filename:{filename}</p>'+'<p>dir:{dir}</p>'+'<p>description:{description}</p>'+'<p>created:{created}</p>'
     }
 });

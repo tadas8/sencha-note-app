@@ -13,7 +13,7 @@ Ext.application({
     name: 'Memo',
 
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox',
     ],
 
     views: ['Main','List','Form'],

@@ -4,8 +4,10 @@ Ext.define('Memo.model.Memo', {
     config: {
         fields: [
             {name: 'id', type: 'auto'},
-            {name: 'title', type: 'auto'},
-            {name: 'memo', type: 'auto'}
+            {name: 'filename', type: 'string'},
+            {name: 'dir', type: 'auto'},
+            {name: 'description', type: 'auto'},
+            {name: 'created', type: 'auto'}
         ]
     }
 });
